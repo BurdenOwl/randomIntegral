@@ -8,7 +8,7 @@ Example:
 
 ![random integral](images/example1.png)
 
-The graph is also shown thus
+The graph is also shown thus:
 
 ![Graph](images/example2.png)
 
