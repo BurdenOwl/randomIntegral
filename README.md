@@ -6,5 +6,5 @@ Run the server by running the python server and opening http://127.0.0.1:8000 on
 
 Example:
 
-![random integral](images/)
+![random integral](images/スクリーンショット 2026-11-17 11.17.18.png)
 
