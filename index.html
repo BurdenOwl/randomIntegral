@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrals</title>
+    <link rel="stylesheet" href="./node_modules/katex/dist/katex.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2rem auto;
+            max-width: 48rem;
+            padding: 0 1rem;
+        }
+
+        .math-output {
+            margin: 1rem 0 2rem;
+            min-height: 2rem;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random expression</h1>
+    <button id="randomIntegral">Generate Another</button>
+    <p id="error" role="alert"></p>
+    <section aria-live="polite">
+        <h2>Original Expression</h2>
+        <div id="integral" class="math-output"></div>
+        <h2>Derivative</h2>
+        <div id="derivative" class="math-output"></div>
+        <h2>Integral</h2>
+        <div id="integralResult" class="math-output"></div>
+        <h2>Risch Algorithm</h2>
+        <div id="risch" class="math-output"></div>
+        <h2>Sympy Integral</h2>
+        <div id="symIntegral" class="math-output"></div>
+        <div id="graph"></div>
+    </section>
+    <script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+    <script src="./node_modules/katex/dist/katex.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
